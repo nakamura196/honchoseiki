@@ -1,0 +1,275 @@
+{
+    "@context": [
+      "http://iiif.io/api/presentation/2/context.json",
+      "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@type": "cr:Curation",
+    "@id": "https://mp.ex.nii.ac.jp/api/curation/json/858eb6c2-3b60-48a3-b152-9b1d35e01681",
+    "label": "Curating list",
+    "selections": [
+      {
+        "@id": "https://mp.ex.nii.ac.jp/api/curation/json/858eb6c2-3b60-48a3-b152-9b1d35e01681/range1",
+        "@type": "sc:Range",
+        "label": "Manual curation by IIIF Curation Viewer",
+        "members": [
+          {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100179206/canvas/4#xywh=2838,594,236,258",
+            "@type": "sc:Canvas",
+            "label": "宮内庁書陵部所蔵伏見宮本",
+            "metadata": [
+              {
+                "label": "day",
+                "value": "30"
+              },
+              {
+                "label": "month",
+                "value": "5"
+              },
+              {
+                "label": "year",
+                "value": "承平五年"
+              }
+            ],
+            "description": ""
+          },
+          {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100179206/canvas/4#xywh=2464,544,328,472",
+            "@type": "sc:Canvas",
+            "label": "宮内庁書陵部所蔵伏見宮本",
+            "metadata": [
+              {
+                "label": "month",
+                "value": "6"
+              },
+              {
+                "label": "year",
+                "value": "承平五年"
+              }
+            ],
+            "description": ""
+          },
+          {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100179206/canvas/4#xywh=2224,580,196,230",
+            "@type": "sc:Canvas",
+            "label": "宮内庁書陵部所蔵伏見宮本",
+            "metadata": [
+              {
+                "label": "day",
+                "value": "1"
+              },
+              {
+                "label": "month",
+                "value": "6"
+              },
+              {
+                "label": "year",
+                "value": "承平五年"
+              }
+            ],
+            "description": ""
+          },
+          {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100179206/canvas/4#xywh=1548,562,186,268",
+            "@type": "sc:Canvas",
+            "label": "宮内庁書陵部所蔵伏見宮本",
+            "metadata": [
+              {
+                "label": "day",
+                "value": "2"
+              },
+              {
+                "label": "month",
+                "value": "6"
+              },
+              {
+                "label": "year",
+                "value": "承平五年"
+              }
+            ],
+            "description": ""
+          }
+        ],
+        "within": {
+          "@id": "https://kotenseki.nijl.ac.jp/biblio/100179206/manifest",
+          "@type": "sc:Manifest",
+          "label": "本朝世紀"
+        }
+      },
+      {
+        "@id": "https://mp.ex.nii.ac.jp/api/curation/json/858eb6c2-3b60-48a3-b152-9b1d35e01681/range2",
+        "@type": "sc:Range",
+        "label": "Manual curation by IIIF Curation Viewer",
+        "members": [
+          {
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/991098/canvas/6#xywh=832,1130,56,98",
+            "@type": "sc:Canvas",
+            "label": "国史大系",
+            "metadata": [
+              {
+                "label": "day",
+                "value": "30"
+              },
+              {
+                "label": "month",
+                "value": "5"
+              },
+              {
+                "label": "year",
+                "value": "承平五年"
+              }
+            ],
+            "description": ""
+          },
+          {
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/991098/canvas/6#xywh=762,732,64,104",
+            "@type": "sc:Canvas",
+            "label": "国史大系",
+            "description": "",
+            "metadata": [
+              {
+                "label": "month",
+                "value": "6"
+              },
+              {
+                "label": "year",
+                "value": "承平五年"
+              }
+            ]
+          },
+          {
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/991098/canvas/6#xywh=760,840,66,82",
+            "@type": "sc:Canvas",
+            "label": "国史大系",
+            "description": "",
+            "metadata": [
+              {
+                "label": "day",
+                "value": "1"
+              },
+              {
+                "label": "month",
+                "value": "6"
+              },
+              {
+                "label": "year",
+                "value": "承平五年"
+              }
+            ]
+          },
+          {
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/991098/canvas/6#xywh=752,2368,56,60",
+            "@type": "sc:Canvas",
+            "label": "国史大系",
+            "description": "",
+            "metadata": [
+              {
+                "label": "day",
+                "value": "2"
+              },
+              {
+                "label": "month",
+                "value": "6"
+              },
+              {
+                "label": "year",
+                "value": "承平五年"
+              }
+            ]
+          }
+        ],
+        "within": {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/991098/manifest.json",
+          "@type": "sc:Manifest",
+          "label": "国史大系. 第８巻　本朝世紀"
+        }
+      },
+      {
+        "@id": "https://mp.ex.nii.ac.jp/api/curation/json/858eb6c2-3b60-48a3-b152-9b1d35e01681/range3",
+        "@type": "sc:Range",
+        "label": "Manual curation by IIIF Curation Viewer",
+        "members": [
+          {
+            "@id": "https://clioapi.hi.u-tokyo.ac.jp/iiif/81/tdata/fushimi/f0401-0500/17/manifest/canvas/p1#xywh=5166,642,214,242",
+            "@type": "sc:Canvas",
+            "label": "宮内庁書陵部柳原本（柳-559）",
+            "description": "",
+            "metadata": [
+              {
+                "label": "day",
+                "value": "30"
+              },
+              {
+                "label": "month",
+                "value": "5"
+              },
+              {
+                "label": "year",
+                "value": "承平五年"
+              }
+            ]
+          },
+          {
+            "@id": "https://clioapi.hi.u-tokyo.ac.jp/iiif/81/tdata/fushimi/f0401-0500/17/manifest/canvas/p1#xywh=4844,640,216,342",
+            "@type": "sc:Canvas",
+            "label": "宮内庁書陵部柳原本（柳-559）",
+            "description": "",
+            "metadata": [
+              {
+                "label": "month",
+                "value": "6"
+              },
+              {
+                "label": "year",
+                "value": "承平五年"
+              }
+            ]
+          },
+          {
+            "@id": "https://clioapi.hi.u-tokyo.ac.jp/iiif/81/tdata/fushimi/f0401-0500/17/manifest/canvas/p1#xywh=4574,634,190,216",
+            "@type": "sc:Canvas",
+            "label": "宮内庁書陵部柳原本（柳-559）",
+            "description": "",
+            "metadata": [
+              {
+                "label": "day",
+                "value": "1"
+              },
+              {
+                "label": "month",
+                "value": "6"
+              },
+              {
+                "label": "year",
+                "value": "承平五年"
+              }
+            ]
+          },
+          {
+            "@id": "https://clioapi.hi.u-tokyo.ac.jp/iiif/81/tdata/fushimi/f0401-0500/17/manifest/canvas/p1#xywh=3922,620,190,252",
+            "@type": "sc:Canvas",
+            "label": "宮内庁書陵部柳原本（柳-559）",
+            "description": "",
+            "metadata": [
+              {
+                "label": "day",
+                "value": "2"
+              },
+              {
+                "label": "month",
+                "value": "6"
+              },
+              {
+                "label": "year",
+                "value": "承平五年"
+              }
+            ]
+          }
+        ],
+        "within": {
+          "@id": "https://clioapi.hi.u-tokyo.ac.jp/iiif/81/tdata/fushimi/f0401-0500/17/manifest",
+          "@type": "sc:Manifest",
+          "label": "伏見宮家旧蔵本（伏０４０１～０５００）-本朝世紀"
+        }
+      }
+    ]
+  }
