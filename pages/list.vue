@@ -1,22 +1,34 @@
 <template>
   <div>
     <v-container class="my-5">
+      <p>[凡例] 諸本の略解説</p>
       <ul>
         <li v-for="(obj, index) in result" :key="index">
           {{index}}
           <ul>
-            <li v-for="(obj2, index2) in obj" :key="index2">
-              {{index2}}月
+            <li class="my-2" v-for="(obj2, index2) in obj" :key="index2">
+              {{index2}}月 [新訂増補国史体系1頁]
               <ul>
                 <template v-for="(obj3, index3) in obj2" >
-                <li :key="index3" v-if="index3 != 'undefined'">
+                <li class="my-2" :key="index3" v-if="index3 != 'undefined'">
                   
-                  {{index3}}日
+                  {{index3}}日 [1頁]
                   <ul>
+                    <li class="my-2" v-for="(obj5, index5) in list" :keu="index5">
+                      <template v-if="obj3[obj5]">
+                        <a :href="miradorUrl(obj3[obj5])" target="_blank">{{obj5}}</a>
+                      </template>
+                      <template v-else>
+                        {{obj5}}
+                      </template>
+                    </li>
+                    <!--
                     <li v-for="(obj4, index4) in obj3" :key="index4">
                       <a :href="miradorUrl(obj4)" target="_blank">{{index4}}</a>
                     </li>
-                    <li><a :href="miradorUrl2(obj3)" target="_blank">諸本を比較</a></li>
+                    -->
+                    <li class="my-2"><a :href="miradorUrl2(obj3)" target="_blank">諸本を比較</a></li>
+                    <li class="my-2"> -> <a target="_blank">大日本史料（綱文検索）</a></li>
                   </ul>
                   
                 </li>
@@ -38,6 +50,7 @@ export default {
   data() {
     return {
       baseUrl: process.env.BASE_URL,
+      list: ["宮内庁書陵部所蔵伏見宮本[伏417 第1巻] (伏417-1)", "駒場図・一高本", "京都御所東山御文庫本（画像は閲覧室のみ）", "宮内庁書陵部柳原本（柳-559） [第1冊]", "参考：旧・国史大系"]
     }
   },
   head() {
