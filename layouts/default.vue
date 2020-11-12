@@ -21,6 +21,15 @@
             </v-list-item-content>
           </v-list-item>
 
+          <v-list-item link :to="localePath({ name: 'calendar' })">
+            <v-list-item-action>
+              <v-icon>mdi-calendar</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title>{{ $t('カレンダー') }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
           <v-list-item link target="_blank" href="https://nakamura196.github.io/icc2/?u=https%3A%2F%2Fmp.ex.nii.ac.jp%2Fapi%2Fcuration%2Fjson%2F858eb6c2-3b60-48a3-b152-9b1d35e01681">
             <v-list-item-action>
               <v-icon>mdi-magnify</v-icon>

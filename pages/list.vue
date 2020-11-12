@@ -117,6 +117,7 @@ export default {
     this.result3 = result2
   },
   computed: {
+    /*
     result2: function(){
       const result = this.result
       const query = this.query
@@ -143,6 +144,7 @@ export default {
       
       return result2
     }
+    */
   },
   async asyncData() {
 
