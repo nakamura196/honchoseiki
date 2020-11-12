@@ -226,6 +226,11 @@ export default {
         ['@babel/plugin-proposal-class-properties', { loose: true }],
       ],
     },
+    extend (config, ctx) {
+      config.node = {
+        fs: "empty" 
+      }
+    }
   },
 
   ...routerBase,
